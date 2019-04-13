@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>overflow</title>
+</head>
+<style>
+    #father {
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+        border: 1px solid blue;
+        position: absolute;
+        z-index: 1;
+
+        top: 40px;
+    }
+
+    #child {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        z-index: 99999;
+        top: 100px;
+        left: 100px;
+    }
+</style>
+
+<body>
+    <button id='btn1'>隐藏border-radius</button>
+    <button id='btn2'>设置border-radius</button>
+
+    <div id="father">
+        <p>前几年，高铁运力不足的时候，某些路局为了缓解客流压力，冒着列车超员报警压死弹簧的安全隐患和列车服务设施过量损耗的风险选择发售无座票让人们能早点回家。但是没人理解铁路人的良苦用心，随之引发的就是社会舆论“强烈要求无座票半价”“黑心铁路有座无座一个票价”以及出现无座票旅客霸占有座票旅客座位的现象、无座票旅客霸占一等座、商务座的现象。铁总这下就怒了，干嘛要做这种吃力不讨好的事，加上运力在这几年越来越充足，一纸下文各个路局禁止发售高铁无座票。________各路局情况不一样，有些路局还是会发售少量无座票。
+            著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+        <div id="child" class="add-translate"></div>
+    </div>
+    <script>
+        document.getElementById('btn1').addEventListener('click', (e) => {
+            console.log(document.getElementById('father').style)
+            document.getElementById('father').style.borderRadius = ''
+        })
+        document.getElementById('btn2').addEventListener('click', (e) => {
+            document.getElementById('father').style.borderRadius = '20px'
+        })
+    </script>
+</body>
+
+</html>
