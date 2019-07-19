@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>transform</title>
+</head>
+<script>
+
+    
+</script>
+<style>
+    *{
+        margin: 0;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .left{
+        width: 250px;
+        height: 250px;
+        border:1px solid red;
+        margin-top:30px;
+        overflow: hidden;
+    }
+    .right{
+        margin-left:-20px;
+        width: 200px;
+        height: 200px;
+        background: lightgreen;
+    }
+    .fix{
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        background: lightblue;
+        top:30px;
+    }
+    .absolute{
+        position: absolute;
+        width: 350px;
+        height: 20px;
+        background: lightcoral;
+        top:220px;
+    }
+    button{
+        height: 50px;
+    }
+</style>
+
+<body>
+
+
+    <div class='box' >
+        <div class="left" id='red'>
+            <div class="fix">我是fixed定位，top:30px;</div>
+            <div class="absolute">我是absolute定位</div>
+        </div>
+        <div class="right">
+            
+        </div>
+        
+    </div>
+    <div class="box">
+        <button id='btn'>改变红框的transform</button>
+    </div>
+
+<script>
+    var state = true;
+    let redDom = document.getElementById('red')
+    document.getElementById('btn').addEventListener('click',function(e){
+        if(state){
+            redDom.style.transform='scale(1)'
+        }else{
+            redDom.style.transform=''
+        }
+        state = !state
+    })
+</script>
+</body>
+</html>
