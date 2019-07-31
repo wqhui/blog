@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>input</title>
+</head>
+<script>
+
+    
+</script>
+<style>
+    *{
+        margin: 0;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+</style>
+
+<body>
+
+    <button id='clearn'>清空placeholder</button>
+    <button id='add'>添加placeholder</button>
+
+<script>
+    var input = document.createElement('input');
+    
+    // input.addEventListener('input', function () {
+    //     alert('input执行了');
+    // });
+    // document.body.appendChild(input);
+    // setTimeout(function () {
+    //     input.placeholder = '哈哈哈';
+    // }, 0);
+    input.placeholder = '3333';
+
+    input.addEventListener('input', function (e) {
+            alert('input执行了');
+            console.log(e)
+    });
+    input.placeholder = '3333';
+    document.body.appendChild(input);
+
+    document.getElementById('clearn').addEventListener('click',function(){
+        input.placeholder = '';
+    })
+
+    document.getElementById('add').addEventListener('click',function(){
+        input.placeholder = '12345678';
+    })
+</script>
+</body>
+</html>
