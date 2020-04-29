@@ -9,7 +9,7 @@
 3. CSS3 transform对普通元素z-index、positon和overflow的影响
 [点击预览](http://htmlpreview.github.io/?https://github.com/DeathKL/Demo/blob/master/transform.html) 
 
-4.React hooks组件中，定义的方法取不到新的state值的坑
+4. React hooks组件中，定义的方法取不到新的state值的坑
 [点击预览](https://codepen.io/Lik_Lit/pen/jOPJbbG) 
 
 
