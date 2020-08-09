@@ -13,6 +13,9 @@
 
 [**4. 滚动条悬浮改变颜色大小**](https://github.com/wqhui/blog/issues/7)
 
+[**5. 纯css实现文字下划线悬浮【中心向两边扩展】、鼠标移开【两边向中心收缩】特效**](https://github.com/wqhui/blog/issues/9)
+
+
 #### React
 
 [**1. React 阻止事件冒泡失效、stopPropagation和stopImmediatePropagation分析，解决stopPropagation没有阻止冒泡问题**](https://github.com/wqhui/blog/issues/2)
