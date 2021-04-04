@@ -24,6 +24,13 @@
 
 [**3. React hooks组件中，定义的方法取不到新的state值的坑**](https://github.com/wqhui/blog/issues/4) 
 
+[**4. 虚拟DOM和DOM diff**](https://github.com/wqhui/blog/issues/11) 
+
+#### 模块化
+
+[**1. webpack打包后运行时文件分析（webpack5）**](https://github.com/wqhui/blog/issues/12)
+
+
 
 #### Ohter
 
