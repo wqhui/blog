@@ -6,7 +6,8 @@
 #### 基础
 [**1. 浏览器知识大纲整合，包含进程、浏览器渲染、HTTP和Cookies**](https://github.com/wqhui/blog/issues/13)
 
-
+#### JavaScript
+[**1. js中的this指向探究**](https://github.com/wqhui/blog/issues/15)
 
 #### CSS
 
@@ -31,15 +32,17 @@
 
 [**3. React hooks组件中，定义的方法取不到新的state值的坑**](https://github.com/wqhui/blog/issues/4) 
 
-[**4. 虚拟DOM和DOM diff**](https://github.com/wqhui/blog/issues/11) 
+[**4. 虚拟DOM和DOM diff（增加fiber）**](https://github.com/wqhui/blog/issues/11) 
 
 #### 模块化
 
 [**1. webpack打包后运行时文件分析（webpack5）**](https://github.com/wqhui/blog/issues/12)
 
 
-#### 工具方法
+#### 常用的JS轮子函数
 
 [**1.根据RGB值判断颜色是否深浅色(附深浅色颜色集合)**](https://github.com/wqhui/blog/issues/8)
+[**2.复制数据到剪切板**](https://github.com/wqhui/blog/issues/10)
+
 
 
