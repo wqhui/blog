@@ -6,6 +6,9 @@
 #### 基础
 [**浏览器知识大纲整合，包含进程、浏览器渲染、HTTP和Cookies**](https://github.com/wqhui/blog/issues/13)
 
+[**你应该知道的http**](https://github.com/wqhui/blog/issues/17)
+
+
 #### JavaScript
 [**js中的this指向探究**](https://github.com/wqhui/blog/issues/15)
 
