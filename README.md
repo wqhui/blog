@@ -8,7 +8,9 @@
 
 [**你应该知道的http**](https://github.com/wqhui/blog/issues/17)
 
-[**浏览器渲染**](https://github.com/wqhui/blog/issues/18)
+[**浏览器渲染过程解析**](https://github.com/wqhui/blog/issues/18)
+
+[**缓存：浏览器缓存、DNS缓存和CDN缓存**](https://github.com/wqhui/blog/issues/19)
 
 
 #### JavaScript
