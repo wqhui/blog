@@ -3,7 +3,7 @@
 <!-- 
 // 0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣
 -->
-🇨🇳 最后更新日期：2️⃣0️⃣2️⃣1️⃣`/`1️⃣2️⃣`/` 2️⃣7️⃣
+🇨🇳 最后更新日期：2️⃣0️⃣2️⃣2️⃣`/`0️⃣1️⃣`/` 0️⃣4️⃣
 
 
 ### 目录
@@ -64,11 +64,13 @@
 
 </details>
 
-<b><details><summary>🦞 JS工具函数</summary></b>
+<b><details><summary>🦞 常用的JS工具函数</summary></b>
 
 - [**根据RGB值判断颜色是否深浅色(附深浅色颜色集合)**](https://github.com/wqhui/blog/issues/8)
 
 - [**复制数据到剪切板**](https://github.com/wqhui/blog/issues/10)
+
+- [**JS解析url链接和获得get参数的两种方法**](https://github.com/wqhui/blog/issues/21)
 
 </details>
 
