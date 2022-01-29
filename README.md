@@ -48,8 +48,6 @@
 
 <b><details><summary>🦈 React</summary></b>
   
-- [**React 源码调试**](https://github.com/wqhui/React-Debug)
-
 - [**React 阻止事件冒泡失效、stopPropagation和stopImmediatePropagation分析，解决stopPropagation没有阻止冒泡问题**](https://github.com/wqhui/blog/issues/2)
 
 - [**react组件下渲染原生dom（插入原生元素）**](https://github.com/wqhui/blog/issues/3)
@@ -57,6 +55,14 @@
 - [**React hooks组件中，定义的方法取不到新的state值的坑**](https://github.com/wqhui/blog/issues/4) 
 
 - [**虚拟DOM和DOM diff（增加fiber）**](https://github.com/wqhui/blog/issues/11) 
+
+</details>
+
+<b><details><summary>🐠React 源码</summary></b>
+  
+- [**React 源码调试**](https://github.com/wqhui/react-debug)
+  
+- [**虚拟DOM和DOM Diff**](https://github.com/wqhui/blog/issues/11) 
 
 </details>
 
