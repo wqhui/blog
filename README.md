@@ -8,6 +8,12 @@
 
 ### 目录
 
+<b><details><summary>🤖 AI / Agent</summary></b>
+
+- [**dsh-superagent：一种新的 agent 思路**](https://github.com/wqhui/blog/issues/30)
+
+</details>
+
 <b><details><summary>🐳 浏览器</summary></b>
 
 - [**浏览器的进程和线程详解**](https://github.com/wqhui/blog/issues/22)
